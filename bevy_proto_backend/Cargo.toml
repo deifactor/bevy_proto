@@ -9,21 +9,7 @@ license = "MIT OR Apache-2.0"
 readme = "README.md"
 
 [features]
-default = [
-    # Crate Features
-    "auto_name",
-    # Bevy Features
-    "bevy_animation",
-    "bevy_audio",
-    "bevy_core_pipeline",
-    "bevy_gltf",
-    "bevy_pbr",
-    "bevy_render",
-    "bevy_scene",
-    "bevy_sprite",
-    "bevy_text",
-    "bevy_ui"
-]
+default = []
 
 # When enabled, entities will automatically use a prototype's ID as its `Name`
 auto_name = []
